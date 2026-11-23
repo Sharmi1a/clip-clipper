@@ -1,0 +1,67 @@
+{
+  "name": "Personal Shorts",
+
+  "min_seconds": 7,
+  "recommended_max_seconds": 40,
+  "hard_max_seconds": 300,
+  "target_lufs": -14,
+
+  "required_caption_phrase": "",
+  "required_hashtags": ["#shorts"],
+  "credit_required": true,
+
+  "logo_required": false,
+  "logo_path": "assets/first.png",
+  "logo": { "width": 200, "x": 20, "y": 70, "opacity": 0.18 },
+
+  "extra_logos": [
+    { "path": "assets/second.png", "width": 200, "x": 840, "y": 500, "opacity": 0.15 },
+    { "path": "assets/third.png",  "width": 160, "x": 460, "y": 1800, "opacity": 0.7 }
+  ],
+
+  "captions": false,
+
+  "facecam": null,
+
+  "layout": {
+    "default": "auto",
+    "top_height": 960,
+    "game_fit": "cover",
+    "game_focus": 0.5,
+    "bg_blur": 35,
+    "bg_dim": 0.35,
+    "blur_zoom": 0.8,
+    "blur_focus": 0.6,
+    "blur_shift_y": 0
+  },
+
+  "style": {
+    "font": "Arial",
+    "bold": true,
+    "caption_size": 100,
+    "caption_color": "FFFFFF",
+    "caption_outline_color": "000000",
+    "caption_outline": 9,
+    "caption_pop": 118,
+    "caption_uppercase": true,
+    "caption_y": null,
+    "hook_size": 68,
+    "hook_text_color": "000000",
+    "hook_box_color": "FFD700",
+    "hook_box_padding": 24,
+    "hook_seconds": 3.0,
+    "hook_uppercase": true,
+    "hook_y": 300
+  },
+
+  "banned_phrases": ["leak", "leaked", "free download", "torrent", "crack"],
+
+  "manual_checks": [
+    "You have permission to use this creator's footage, or their channel allows clips.",
+    "The creator is credited in your post (the Credit line).",
+    "The hook is honest: no fake context, fake reactions or misleading title.",
+    "The clip adds something of your own (hook, edit, commentary), not a plain re-upload.",
+    "No private info on screen (viewer names, handles, addresses).",
+    "You watched the whole clip once and the captions match what is said."
+  ]
+}
